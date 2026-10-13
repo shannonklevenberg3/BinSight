@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BinSight</title>
+<meta name="theme-color" content="#0f766e">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="BinSight">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="banner" hidden>Demo mode — nothing is saved</div>
+<header class="top noprint"><a href="#/" class="brand"><span class="mark">▣</span> BinSight</a>
+  <nav><a href="#/labels">Labels</a><a href="#/tools">Tools</a></nav></header>
+<main id="view"><p class="muted center pad">Loading…</p></main>
+<div id="toast" role="status"></div>
+<script type="module" src="app.bundle.js"></script>
+</body>
+</html>
